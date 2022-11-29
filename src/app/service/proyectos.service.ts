@@ -6,7 +6,7 @@ import { Proyectos } from '../model/proyectos';
   providedIn: 'root'
 })
 export class ProyectosService {
-  URL = 'https://idbbasedatos.herokuapp.com/proyectos/';
+  URL = 'https://idbbackend.herokuapp.com/proyectos/';
 
   constructor(private httpClient : HttpClient) { }
 
